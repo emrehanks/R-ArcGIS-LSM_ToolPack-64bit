@@ -20,8 +20,9 @@
 ## Requirements
 * ONLY SUPPORTING ArcGIS PRO 2.x (64Bit) and R BASE 4.2x
 * [ArcGIS Pro 1.1 or later](http://pro.arcgis.com/en/pro-app/) ([don't have it? try trial edition](http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial))
-* [R Statistical Computing Software, 4.2.x or later](http://cran.cnr.berkeley.edu/bin/windows/base/) ([What is R?](http://www.r-project.org/about.html)). !!! R Base 4.0 is not supported yet !!! [Recommended Version v3.6.3](https://cran.r-project.org/bin/windows/base/old/3.6.3/)
-* [ArcGIS R-Bridge](https://github.com/R-ArcGIS/r-bridge-install) -- [Recommended Version v1.0.1.239](https://github.com/R-ArcGIS/r-bridge/releases/tag/v1.0.1.239)
+* [R Statistical Computing Software, 4.2.x or later](https://cran.r-project.org/bin/windows/base/) ([What is R?](http://www.r-project.org/about.html)). !!! R Base 4.0 is not supported yet !!! [Recommended Version v4.2.x](https://cran.r-project.org/bin/windows/base/)
+* [ArcGIS R-Bridge](https://github.com/R-ArcGIS/r-bridge-install) 
+* [Recommended Version v1.0.1.300](https://r.esri.com/bin/windows/contrib/4.2/arcgisbinding_1.0.1.300.zip)
 * [Java Runtime Environment](https://java.com/en/download/manual.jsp) for FSelector package
 * If you are setting up modules for the first time, you will need an internet connection to install the R-packages on the depository.
 
