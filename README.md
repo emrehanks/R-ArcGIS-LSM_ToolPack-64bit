@@ -23,7 +23,7 @@
 * [R Statistical Computing Software, 4.2.x or later](https://cran.r-project.org/bin/windows/base/) ([What is R?](http://www.r-project.org/about.html)). !!! R Base 4.0 is not supported yet !!! [Recommended Version v4.2.x](https://cran.r-project.org/bin/windows/base/)
 * [ArcGIS R-Bridge](https://github.com/R-ArcGIS/r-bridge-install) 
 * [Recommended Version v1.0.1.300](https://r.esri.com/bin/windows/contrib/4.2/arcgisbinding_1.0.1.300.zip)
-* If arcgisbinding is not installed, run this code in R terminal.  install.packages("arcgisbinding", repos="https://r.esri.com", type="win.binary")
+* NOT: If arcgisbinding is not installed, run this code in R terminal << install.packages("arcgisbinding", repos="https://r.esri.com", type="win.binary") >>
 * [Java Runtime Environment](https://java.com/en/download/manual.jsp) for FSelector package
 * If you are setting up modules for the first time, you will need an internet connection to install the R-packages on the depository.
 
