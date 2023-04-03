@@ -20,7 +20,7 @@
 ## Requirements
 * ONLY SUPPORTING ArcGIS PRO 2.x (64Bit) and R BASE 4.2x
 * [ArcGIS Pro 1.1 or later](http://pro.arcgis.com/en/pro-app/) ([don't have it? try trial edition](http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial))
-* [R Statistical Computing Software, 4.2.x or later](https://cran.r-project.org/bin/windows/base/) ([What is R?](http://www.r-project.org/about.html)). !!! R Base 4.0 is not supported yet !!! [Recommended Version v4.2.x](https://cran.r-project.org/bin/windows/base/)
+* [R Statistical Computing Software, 4.2.x or later](https://cran.r-project.org/bin/windows/base/) ([What is R?](http://www.r-project.org/about.html)). !!! R Base 3.6 is not supported !!! [Recommended Version v4.2.x](https://cran.r-project.org/bin/windows/base/)
 * [ArcGIS R-Bridge](https://github.com/R-ArcGIS/r-bridge-install) 
 * [Recommended Version v1.0.1.300](https://r.esri.com/bin/windows/contrib/4.2/arcgisbinding_1.0.1.300.zip)
 * NOT: If arcgisbinding is not installed, run this code in R terminal << install.packages("arcgisbinding", repos="https://r.esri.com", type="win.binary") >>
