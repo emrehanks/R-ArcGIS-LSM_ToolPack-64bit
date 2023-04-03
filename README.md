@@ -4,12 +4,7 @@
 
 ## News and Announcements
 * Two new modeling methods were added in The LSM_ToolPack namely, Support Vector Machine (SVM) and eXtreme gradient boosting (XGBoost) 
-* Dear Users, Don't forget to follow the "Issues" tab for important announcements!
-* If you meet the error code given below, please unzip this "recipes" file on your base R location (e.g. C:\Users\emrehan\OneDrive\Documents\R\win-library\3.6)
-*       "Error: package or namespace load failed for ‘caret’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
-         there is no package called ‘recipes’*"
-* If you meet the error code given below, use ArcGIS Pro 2 or downgrade the latest R-Base version 4 to 3.6.3.
-*       "Failed to initialize R interpreter*"
+
 ## Features
 
 * [Data Preparation(Train/Validation Split)](https://github.com/emrehanks/R-ArcGIS/blob/master/scripts/trainValidationSplit.R)
@@ -23,8 +18,8 @@
 
 
 ## Requirements
-
-* [ArcGIS 10.3.1 or later](http://desktop.arcgis.com/en/desktop/) or [ArcGIS Pro 1.1 or later](http://pro.arcgis.com/en/pro-app/) ([don't have it? try trial edition](http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial))
+* ONLY SUPPORTING ArcGIS PRO 2.x (64Bit) and R BASE 4.2x
+* [ArcGIS Pro 1.1 or later](http://pro.arcgis.com/en/pro-app/) ([don't have it? try trial edition](http://www.esri.com/software/arcgis/arcgis-for-desktop/free-trial))
 * [R Statistical Computing Software, 3.3.2 or later](http://cran.cnr.berkeley.edu/bin/windows/base/) ([What is R?](http://www.r-project.org/about.html)). !!! R Base 4.0 is not supported yet !!! [Recommended Version v3.6.3](https://cran.r-project.org/bin/windows/base/old/3.6.3/)
 * [ArcGIS R-Bridge](https://github.com/R-ArcGIS/r-bridge-install) -- [Recommended Version v1.0.1.239](https://github.com/R-ArcGIS/r-bridge/releases/tag/v1.0.1.239)
 * [Java Runtime Environment](https://java.com/en/download/manual.jsp) for FSelector package
