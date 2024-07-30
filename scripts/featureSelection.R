@@ -275,22 +275,22 @@ tool_exec <- function(in_params, out_params)
   if(algoritm == "Chi Square"){
     for(i in 1:featureFoldNumber){
       arc.progress_pos(as.integer(i * (100/featureFoldNumber)))
-      listofweights[[i]] <- chi.squared(train ~. , listoftrain[[i]])
+      listofweights[[i]] <- FSelector::chi.squared(train ~. , listoftrain[[i]])
     }
   }else if(algoritm == "Information Gain"){
     for(i in 1:featureFoldNumber){
       arc.progress_pos(as.integer(i * (100/featureFoldNumber)))
-      listofweights[[i]] <- information.gain(train ~. , listoftrain[[i]])
+      listofweights[[i]] <- FSelector::information.gain(train ~. , listoftrain[[i]])
     }
   }else if(algoritm == "Spearmans Rank Correlation Coefficient"){
     for(i in 1:featureFoldNumber){
       arc.progress_pos(as.integer(i * (100/featureFoldNumber)))
-      listofweights[[i]] <- rank.correlation(train ~. , listoftrain[[i]])
+      listofweights[[i]] <- FSelector::rank.correlation(train ~. , listoftrain[[i]])
     }
   }else if(algoritm == "Random Forest Importance"){
     for(i in 1:featureFoldNumber){
       arc.progress_pos(as.integer(i * (100/featureFoldNumber)))
-      listofweights[[i]] <- random.forest.importance(train ~. , listoftrain[[i]])
+      listofweights[[i]] <- FSelector::random.forest.importance(train ~. , listoftrain[[i]])
     }
   }else cat("Please Select an Algoritm in The List...")
   
