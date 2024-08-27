@@ -282,7 +282,7 @@ tool_exec <- function(in_params, out_params)
       arc.progress_pos(as.integer(i * (100/featureFoldNumber)))
       listofweights[[i]] <- FSelector::information.gain(train ~. , listoftrain[[i]])
     }
-  }else if(algoritm == "Spearmans Rank Correlation Coefficient"){
+  }else if(algoritm == "Spearman Rank Correlation Coefficient"){
     for(i in 1:featureFoldNumber){
       arc.progress_pos(as.integer(i * (100/featureFoldNumber)))
       listofweights[[i]] <- FSelector::rank.correlation(train ~. , listoftrain[[i]])
